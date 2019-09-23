@@ -24,25 +24,11 @@ public class testLogin{
 		
 	   //website navigation
 		driver.get(HumanityHome.HOME_URL);
-		if(!driver.getCurrentUrl().equals("https://www.humanity.com/")){
-			driver.navigate().to("https://www.humanity.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-		/*
-		 * 
-
-
-		 * 
-		 * 
-		 * 
-		 */
 		
 		
-		
-		
-		
-		
-		
+			
 		HumanityHome.clickLogin(driver);
 		HumanityHome.inputLoginEmail(driver, "cobosivol@coin-host.net");
 		HumanityHome.inputLoginPass(driver, "12upload34");

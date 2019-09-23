@@ -9,10 +9,10 @@ public class HumanityStaff {
 	public static final String URL="https://zelenizub.humanity.com/app/staff/list/load/true/";
 	
 	private static final String ADD_EMPLOY_XP="//button[@id='act_primary']";
-	private static final String FIRSTNAME_FRONT_XP="//input[@id='_asf";
-	private static final String LASTNAME_FRONT_XP="//input[@id='_asl";
-	private static final String EMAIL_FRONT_XP="//input[@id='_ase";
-	private static final String END_XP="']";
+	//private static final String FIRSTNAME_FRONT_XP="//input[@id='_asf";
+	//private static final String LASTNAME_FRONT_XP="//input[@id='_asl";
+	//private static final String EMAIL_FRONT_XP="//input[@id='_ase";
+	//private static final String END_XP="']";
 	private static final String SAVE_EMPLOY_XP="//button[@id='_as_save_multiple']";
 	private static final String AVATAR_XP="//i[@class='icon icon-arrowFullDn j-arrowIconToAvatar navBottom__userArrow']";
 	//private static final String SIGNOUT_XP="//div[@id='wrap_us_menu']";
